@@ -5,7 +5,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Oig</Text>
-      <Text>4</Text>
+      <Text>3</Text>
       <Text>Teste</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
