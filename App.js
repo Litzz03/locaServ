@@ -11,6 +11,7 @@ export default function App() {
       <Text>Teste</Text>
       <InputGeneric/>
       <StatusBar style="auto" />
+      <Header></Header>
     </SafeAreaView>
   );
 }
