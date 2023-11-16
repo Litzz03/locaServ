@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import InputGeneric from './src/components/InputGeneric';
+
 
 export default function App() {
   return (
@@ -7,6 +9,7 @@ export default function App() {
       <Text>Oig</Text>
       <Text>2</Text>
       <Text>Teste</Text>
+      <InputGeneric/>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
