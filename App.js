@@ -8,6 +8,7 @@ export default function App() {
       <Text>2</Text>
       <Text>Teste</Text>
       <StatusBar style="auto" />
+      <Header></Header>
     </SafeAreaView>
   );
 }
