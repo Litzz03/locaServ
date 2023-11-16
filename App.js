@@ -6,6 +6,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text>Oig</Text>
       <Text>Teste</Text>
+      <Text>Teste</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
