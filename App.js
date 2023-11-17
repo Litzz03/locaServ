@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import InputGeneric from './src/components/InputGeneric';
 import Header from './src/components/Header';
-import ButonsScreen from './src/components/ButonScreen';
+import Splash from './src/screens/Splash';
 
 
 export default function App() {
@@ -15,6 +15,8 @@ export default function App() {
       <StatusBar style="auto" />
       <Header></Header>
       <ButonsScreen/>
+      
+      <Splash></Splash>
     </SafeAreaView>
   );
 }
