@@ -3,6 +3,7 @@ import Splash from "../screens/Splash";
 import LoginClient from "../screens/LoginClient";
 import Home from "../screens/Home";
 import TestScreen from "../screens/TestScreen";
+import LoginProvider from "../screens/LoginProvider";
 
 function AppRoutes(){
 
@@ -14,7 +15,7 @@ const {Screen, Navigator} = createNativeStackNavigator();
 
             <Screen name="splashScreen" component={Splash}/>
             <Screen name="loginClient" component={LoginClient}/>
-          
+            <Screen name="loginProvider" component={LoginProvider}/>
             <Screen name="home" component={Home}/>
             <Screen name="testScreen" component={TestScreen}/>
 

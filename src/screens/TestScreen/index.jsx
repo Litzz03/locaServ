@@ -7,7 +7,7 @@ function TestScreen(){
         <View>
             <ButonsScreen title="SplasScreen" destinyScreen="splashScreen"/>
             <ButonsScreen title="LoginClient" destinyScreen="loginClient"/>
-            <ButonsScreen title="LoginProvider" destinyScreen="splashScreen"/>
+            <ButonsScreen title="LoginProvider" destinyScreen="loginProvider"/>
             <ButonsScreen title="Home" destinyScreen="home"/>
             <ButonsScreen title="TestScreen" destinyScreen="testScreen"/>
         </View>
