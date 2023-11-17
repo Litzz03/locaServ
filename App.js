@@ -3,15 +3,12 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import InputGeneric from './src/components/InputGeneric';
 import Header from './src/components/Header';
 import Splash from './src/screens/Splash';
+import ButonsScreen from './src/components/ButonScreen';
 
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Oig</Text>
-      <Text>2</Text>
-      <Text>Teste</Text>
-      <InputGeneric texto={'Cnpj'}/>
       <StatusBar style="auto" />
       <Header></Header>
       <ButonsScreen/>
