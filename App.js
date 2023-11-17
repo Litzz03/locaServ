@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import InputGeneric from './src/components/InputGeneric';
 import Header from './src/components/Header';
 import ButonsScreen from './src/components/ButonScreen';
-import ButonsScreen from './src/components/ButonScreen';
+
 
 
 export default function App() {
