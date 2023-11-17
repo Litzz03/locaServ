@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import InputGeneric from './src/components/InputGeneric';
-import { Header } from 'react-native/Libraries/NewAppScreen';
 import Header from './src/components/Header';
 
 
