@@ -1,10 +1,19 @@
-import { View } from "react-native";
+import { Image, View } from "react-native";
+import { styles } from "./styles";
 
 
-function LoginProvider(){
+function LoginProvider() {
 
-    return(
-        <View></View>
+    const imagePath = require('../../../assets/Logo.png')
+
+    return (
+        <View>
+
+            <View>
+                <Image style={styles.image} source={imagePath} />
+            </View>
+
+        </View>
     )
 }
 
