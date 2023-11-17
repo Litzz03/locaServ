@@ -1,5 +1,5 @@
 import { Text, TextInput, View } from "react-native";
-import { styles } from "./styles";
+import { styles } from "./style";
 
 
 function InputGeneric(props) {
