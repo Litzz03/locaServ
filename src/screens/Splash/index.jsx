@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 function Splash(){
   
-  const imagePath = require('..\assets\icon.png');
+  const imagePath = require('../../../assets/Logo.png');
 return(
   <View style={styles.background}>
     <View>
