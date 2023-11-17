@@ -11,7 +11,7 @@ export default function App() {
       <Text>Oig</Text>
       <Text>2</Text>
       <Text>Teste</Text>
-      <InputGeneric/>
+      <InputGeneric texto={'Cnpj'}/>
       <StatusBar style="auto" />
       
       <Splash></Splash>

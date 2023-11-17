@@ -2,6 +2,7 @@ import { Text, TextInput, View } from "react-native";
 import { styles } from "./styles";
 
 
+
 function InputGeneric(props) {
     return (
         <View style={[styles.container]}>

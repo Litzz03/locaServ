@@ -5,14 +5,15 @@ export const styles = StyleSheet.create({
         alignItems:"center",
     },
     input:{
-        height:48,
+        height:40,
         width:306,
-        borderWidth:1,
-        borderColor:'#000000',
-        borderRadius:15,
-        textAlign:'center',
-        fontSize:25,
-        color:'#6F6B73',
-        fontWeight:'bold'
+        borderWidth:2,
+        borderColor:'#ECECEC',
+        borderRadius:25,
+        fontSize:20,
+        color:'#000000',
+        fontWeight:'bold',
+        paddingHorizontal: 15,
+        backgroundColor:'#ECECEC'
     }
 })
