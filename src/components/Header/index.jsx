@@ -10,7 +10,8 @@ function Header(){
                 <Text style={styles.title}>LocaServ</Text>
             </View>
             <View style={styles.buttonContainer}>
-                
+                <TouchableOpacity style={styles.button}>
+                </TouchableOpacity>        
             </View>
         </View>
     )

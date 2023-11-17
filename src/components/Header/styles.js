@@ -24,7 +24,8 @@ export const styles = StyleSheet.create({
         justifyContent: "center" 
     },
     button:{
-        width: '30%'
+        width: '30%',
+        backgroundColor:"#666"
     },
     textButton:{
         color: "#FFFFFF",
