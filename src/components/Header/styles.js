@@ -24,9 +24,12 @@ export const styles = StyleSheet.create({
         justifyContent: "center" 
     },
     button:{
-       
+        width: '30%'
     },
     textButton:{
-        
+        color: "#FFFFFF",
+        fontWeight: "bold",
+        fontSize: 10,
+        fontWeight: "900"
     }
 })
