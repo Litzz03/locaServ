@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 function Splash(){
   
-  const imagePath = require('/Users/Guilherme/Desktop/locaServ-1/assets/Logo.png');
+  const imagePath = require('..\assets\icon.png');
 return(
   <View style={styles.background}>
     <View>
