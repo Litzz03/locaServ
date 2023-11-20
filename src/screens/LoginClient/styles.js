@@ -13,13 +13,10 @@ export const styles = StyleSheet.create({
   image: {
     
   },
-  button:{
-      marginTop:70
-  },
   containerButton:{
     flex: 1,
     flexDirection:'row',
-
+    margin:30
   }
  
 

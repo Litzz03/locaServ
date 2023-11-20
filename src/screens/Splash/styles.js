@@ -17,4 +17,8 @@ export const styles = StyleSheet.create({
   image: {
     
   },
+  header:{
+    height:'10%',
+    width:'100%'
+  }
 })
