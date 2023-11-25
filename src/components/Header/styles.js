@@ -10,8 +10,8 @@ export const styles = StyleSheet.create({
     header:{
         flex: 1,
         justifyContent: "flex-end",
-        paddingHorizontal: 20,
-        paddingVertical: 15
+        paddingHorizontal: 15,
+        paddingVertical: 10
     },
     title:{
         color: '#FFFFFF',
@@ -20,17 +20,24 @@ export const styles = StyleSheet.create({
     },
     buttonContainer:{
         flex: 1,
-        alignItems: "center",
+        alignItems: "flex-end",
         justifyContent: "center" 
     },
     button:{
         width: '30%',
-        backgroundColor:"#666"
+        backgroundColor:"#E42424",
+        alignItems: "center",
     },
     textButton:{
         color: "#FFFFFF",
         fontWeight: "bold",
         fontSize: 10,
         fontWeight: "900"
+    },
+    iconMenuHeader:{
+        name: "Menu",
+        size: 40,
+        color: "white",
+        backgroundColor:"#E42424"
     }
 })

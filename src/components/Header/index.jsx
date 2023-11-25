@@ -1,5 +1,6 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 function Header(){
@@ -11,6 +12,7 @@ function Header(){
             </View>
             <View style={styles.buttonContainer}>
                 <TouchableOpacity style={styles.button}>
+                    <MaterialCommunityIcons name="menu" size={50} color="white"/>               
                 </TouchableOpacity>        
             </View>
         </View>
