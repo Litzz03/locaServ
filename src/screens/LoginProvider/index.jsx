@@ -1,5 +1,8 @@
 import { Image, View } from "react-native";
 import { styles } from "./styles";
+import InputGeneric from "../../components/InputGeneric";
+import Header from "../../components/Header";
+import ButonsScreen from "../../components/ButonScreen";
 
 
 function LoginProvider() {
@@ -7,11 +10,32 @@ function LoginProvider() {
     const imagePath = require('../../../assets/Logo.png')
 
     return (
-        <View>
+        <View style={styles.container}>
+
+            
+                <Header />
+            
 
             <View>
                 <Image style={styles.image} source={imagePath} />
             </View>
+
+            <View style={styles.inputs}>
+                <InputGeneric texto="Cnpj/Cpf" />
+                <InputGeneric texto="Usuário" />
+                <InputGeneric texto="Senha" />
+            </View>
+
+            <ButonsScreen title="Login"/>
+
+            <View style={styles.containerButton}>
+                <ButonsScreen title="Prestador"/>
+                <ButonsScreen title="Cliente"/>
+
+            </View>
+
+
+
 
         </View>
     )
