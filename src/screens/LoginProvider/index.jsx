@@ -29,8 +29,8 @@ function LoginProvider() {
             <ButonsScreen title="Login"/>
 
             <View style={styles.containerButton}>
-                <ButonsScreen title="Prestador"/>
-                <ButonsScreen title="Cliente"/>
+                <ButonsScreen title="Prestador" destinyScreen='loginProvider'/>
+                <ButonsScreen title="Cliente" destinyScreen='loginClient'/>
 
             </View>
 

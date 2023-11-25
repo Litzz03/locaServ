@@ -12,31 +12,22 @@ function LoginProvider() {
     return (
         <View style={styles.container}>
 
-            
-                <Header />
-            
-
+            <Header/>
             <View>
                 <Image style={styles.image} source={imagePath} />
             </View>
-
+            
             <View style={styles.inputs}>
                 <InputGeneric texto="Cpf" />
                 <InputGeneric texto="Senha" />
             </View>
 
-       
             <ButonsScreen title="Login"/>
-       
 
             <View style={styles.containerButton}>
-                <ButonsScreen title="Prestador"/>
-                <ButonsScreen title="Cliente"/>
-
+                <ButonsScreen title="Prestador" destinyScreen='loginProvider'/>
+                <ButonsScreen title="Cliente" destinyScreen='loginClient'/>
             </View>
-
-
-
 
         </View>
     )
