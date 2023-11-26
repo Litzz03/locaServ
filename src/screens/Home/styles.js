@@ -6,5 +6,8 @@ export const styles = StyleSheet.create({
     },
     containerMap:{
         flex:1
+    },
+    map:{
+        flex: 1
     }
 })
