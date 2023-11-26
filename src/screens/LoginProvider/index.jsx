@@ -11,11 +11,9 @@ function LoginProvider() {
 
     return (
         <View style={styles.container}>
-
             
                 <Header />
             
-
             <View>
                 <Image style={styles.image} source={imagePath} />
             </View>
