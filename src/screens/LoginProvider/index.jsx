@@ -24,12 +24,11 @@ function LoginProvider() {
                 <InputGeneric texto="Senha" />
             </View>
 
-            <ButonsScreen title="Login"/>
+            <ButonsScreen title="Login" destinyScreen='home'/>
 
             <View style={styles.containerButton}>
                 <ButonsScreen title="Prestador" destinyScreen='loginProvider'/>
                 <ButonsScreen title="Cliente" destinyScreen='loginClient'/>
-
             </View>
 
 

@@ -30,8 +30,7 @@ export const styles = StyleSheet.create({
     abaMenu:{
         justifyContent: 'center', 
         alignItems: 'center', 
-        gap:30,
-        
+        gap:30
     },
     textAba:{
         color:'#fff',

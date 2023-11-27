@@ -21,7 +21,6 @@ const {Screen, Navigator} = createNativeStackNavigator();
             <Screen name="companyList" component={CompanyList}/>
             <Screen name="testScreen" component={TestScreen}/>
 
-
         </Navigator>
 
     )

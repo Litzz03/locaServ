@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <View style={styles.container}>
-      <Header />
+      <Header/>
       <View style={styles.containerMap}>
             <MapView
           style={styles.map}
@@ -53,7 +53,6 @@ function Home() {
             </View>
           </Modal>
         </View>
-
         
         <View style={styles.lista}>
           <TouchableOpacity onPress={() => navigation.navigate('companyList')} >

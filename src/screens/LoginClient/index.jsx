@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 import ButonsScreen from "../../components/ButonScreen";
 
 
-function LoginProvider() {
+function LoginClient() {
 
     const imagePath = require('../../../assets/Logo.png')
 
@@ -22,7 +22,7 @@ function LoginProvider() {
                 <InputGeneric texto="Senha" />
             </View>
 
-            <ButonsScreen title="Login"/>
+            <ButonsScreen title="Login" destinyScreen='home'/>
 
             <View style={styles.containerButton}>
                 <ButonsScreen title="Prestador" destinyScreen='loginProvider'/>
@@ -33,4 +33,4 @@ function LoginProvider() {
     )
 }
 
-export default LoginProvider
+export default LoginClient
