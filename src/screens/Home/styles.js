@@ -43,9 +43,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'absolute', 
         paddingLeft:320,
-        paddingTop:650,
-        borderColor:'black'
-         
+        paddingTop:650       
     },
     textlista:{
         fontWeight: 'bold',
@@ -55,7 +53,6 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         borderRadius: 10,
         fontSize: 15,
-        borderWidth: 1,            
-        borderColor: 'black' 
+        borderWidth: 1
     }
 })
