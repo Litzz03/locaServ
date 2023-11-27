@@ -4,7 +4,6 @@ import LoginClient from "../screens/LoginClient";
 import Home from "../screens/Home";
 import TestScreen from "../screens/TestScreen";
 import LoginProvider from "../screens/LoginProvider";
-import Lista from "../screens/Lista";
 import CompanyList from "../screens/CompanyList";
 
 function AppRoutes(){

@@ -41,13 +41,11 @@ export const styles = StyleSheet.create({
         fontSize:20
     },
     lista:{
-        flex:1,
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute', 
         paddingLeft:320,
-        paddingTop:650,
-        borderColor:'black'
+        paddingTop:600,
          
     },
     textlista:{
@@ -58,7 +56,5 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         borderRadius: 10,
         fontSize: 15,
-        borderWidth: 1,            
-        borderColor: 'black' 
     }
 })
