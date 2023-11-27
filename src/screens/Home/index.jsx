@@ -56,7 +56,7 @@ function Home() {
 
         
         <View style={styles.lista}>
-          <TouchableOpacity onPress={() => navigation.navigate('CompanyList')} >
+          <TouchableOpacity onPress={() => navigation.navigate('companyList')} >
             <Text style={styles.textlista}>Lista</Text>
           </TouchableOpacity>
         </View>

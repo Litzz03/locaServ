@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
         flex: 1
     },
     menu:{
-        flex:1,
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute', 
@@ -29,7 +28,6 @@ export const styles = StyleSheet.create({
         fontSize:15,
     },
     abaMenu:{
-        flex: 1, 
         justifyContent: 'center', 
         alignItems: 'center', 
         gap:30,
@@ -41,13 +39,11 @@ export const styles = StyleSheet.create({
         fontSize:20
     },
     lista:{
-        flex:1,
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute', 
         paddingLeft:320,
-        paddingTop:650,
-        borderColor:'black'
+        paddingTop:650
          
     },
     textlista:{
@@ -58,7 +54,6 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         borderRadius: 10,
         fontSize: 15,
-        borderWidth: 1,            
-        borderColor: 'black' 
+        borderWidth: 1
     }
 })
