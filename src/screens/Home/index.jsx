@@ -44,7 +44,7 @@ function Home() {
               <TouchableOpacity onPress={() => console.log('Item 2')}>
                 <Text style={styles.textAba}>Endereco</Text>
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => navigation.navigate('testScreen')}>
+              <TouchableOpacity onPress={() => navigation.navigate('loginClient')}>
                 <Text style={styles.textAba}>Sair</Text>
               </TouchableOpacity>
               <TouchableOpacity onPress={toggleModal}>

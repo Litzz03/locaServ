@@ -43,7 +43,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'absolute', 
         paddingLeft:290,
-        paddingTop:600       
+        paddingTop:500       
     },
     textlista:{
         fontWeight: 'bold',
