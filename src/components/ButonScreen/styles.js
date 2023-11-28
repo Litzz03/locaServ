@@ -7,11 +7,11 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginLeft:30,
         marginRight:30,
-        marginTop:10
+        marginBottom:10
     },
     button: {
         width: 140,
-        height: 50,
+        height: 35,
         borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center',

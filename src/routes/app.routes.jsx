@@ -12,14 +12,15 @@ const {Screen, Navigator} = createNativeStackNavigator();
 
     return(
 
-        <Navigator initialRouteName="testScreen" screensOptions={{Headers: false}}>
+        <Navigator initialRouteName="loginClient" screensOptions={{Headers: false}}>
 
-            <Screen name="splashScreen" component={Splash}/>
+         
             <Screen name="loginClient" component={LoginClient}/>
             <Screen name="loginProvider" component={LoginProvider}/>
             <Screen name="home" component={Home}/>
             <Screen name="companyList" component={CompanyList}/>
             <Screen name="testScreen" component={TestScreen}/>
+
 
         </Navigator>
 

@@ -5,7 +5,6 @@ function TestScreen(){
 
     return(
         <View>
-            <ButonsScreen title="SplasScreen" destinyScreen="splashScreen"/>
             <ButonsScreen title="LoginClient" destinyScreen="loginClient"/>
             <ButonsScreen title="LoginProvider" destinyScreen="loginProvider"/>
             <ButonsScreen title="Home" destinyScreen="home"/>
