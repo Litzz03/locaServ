@@ -7,7 +7,7 @@ import ButonsScreen from "../../components/ButonScreen";
 
 function LoginClient() {
 
-    const imagePath = require('../../../assets/Logo.png')
+    const imagePath = require('../../../assets/LogoBranco.png')
 
     return (
         <View style={styles.container}>

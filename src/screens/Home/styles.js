@@ -14,18 +14,19 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute', 
-        paddingLeft:15,
+        paddingLeft:12,
         paddingTop:20,
         
     },
     textMenu:{
         fontWeight:'bold',
         backgroundColor:'white',
-        width: 70,
-        height: 20,
+        width: 90,
+        height: 30,
         textAlign:'center',
         borderRadius: 10,
-        fontSize:15,
+        fontSize:20,
+        borderWidth: 1
     },
     abaMenu:{
         justifyContent: 'center', 
@@ -41,17 +42,17 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute', 
-        paddingLeft:320,
-        paddingTop:650       
+        paddingLeft:290,
+        paddingTop:600       
     },
     textlista:{
         fontWeight: 'bold',
         backgroundColor: 'white',
-        width: 70,
-        height: 20,
+        width: 90,
+        height: 30,
         textAlign: 'center',
         borderRadius: 10,
-        fontSize: 15,
+        fontSize: 20,
         borderWidth: 1
     }
 })

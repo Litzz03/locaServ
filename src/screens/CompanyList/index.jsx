@@ -3,6 +3,7 @@ import { styles } from './styles';
 import Header from "../../components/Header";
 import CompanyCard from "../../components/CompanyCard";
 import { useState } from "react";
+import Filter from "../../components/Filter";
 
 function CompanyList(){
 
@@ -14,6 +15,7 @@ function CompanyList(){
   return(
     <View style={styles.container}> 
       <Header/>
+      <Filter/>
       <Button onPress={handleProdutoAdd} title="testButton"/>
       <FlatList
         data={company}
